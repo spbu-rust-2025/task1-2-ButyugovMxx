@@ -10,7 +10,7 @@ fn main() {
         let x: i32 = match s.trim().parse::<i32>(){
             Ok(x) => x,
             Err(_) => {
-            println!("Nan");
+            print!("NaN");
             return;
             }
         };
